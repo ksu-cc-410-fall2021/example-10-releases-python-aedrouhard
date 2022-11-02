@@ -1,3 +1,4 @@
+build
 coverage
 flake8
 flake8-docstrings
@@ -10,3 +11,7 @@ pyhamcrest
 pytest
 pytest-html
 tox
+
+# Lock flake8 to <5.0.0
+# https://github.com/lordmauve/flake8-html/issues/30
+flake8<5.0.0
